@@ -10,8 +10,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: zulu 
-        shell: shell
+      - name: bash-windows-test 
+        shell: bash 
         run: |
           mkdir -p temp/temp2
           curl https://google.com
