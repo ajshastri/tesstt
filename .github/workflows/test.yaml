@@ -1,0 +1,17 @@
+# Test Windows bash
+name: Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: zulu 
+        shell: shell
+        run: |
+          mkdir -p temp/temp2
+          curl https://google.com
