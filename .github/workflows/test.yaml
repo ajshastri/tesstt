@@ -18,4 +18,4 @@ jobs:
           curl https://google.com
           bash --version
           jq --version
-          curl -L -s https://github.com/ajshastri/chocolatey-packages/blob/e558ba4cb5d2602163af16a4b224dad143170859/scripts/zulu-sync.sh | bash
+          openssl version 
