@@ -23,4 +23,4 @@ jobs:
         shell: powershell
         run: |
           choco feature enable -n=allowGlobalConfirmation
-          choco upgrade all
+          choco install zulu11
